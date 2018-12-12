@@ -1,0 +1,40 @@
+{
+  "prdList": [
+    {
+      "image": "url('../img/img1.jpg')",
+      "name": "馬卡龍",
+      "price": "NT$ 450",
+      "action": "加入購物車"
+    },
+    {
+      "image": "url('../img/img1.jpg')",
+      "name": "馬卡龍",
+      "price": "NT$ 450",
+      "action": "加入購物車"
+    },
+    {
+      "image": "url('../img/img1.jpg')",
+      "name": "馬卡龍",
+      "price": "NT$ 450",
+      "action": "加入購物車"
+    },
+    {
+      "image": "url('../img/img1.jpg')",
+      "name": "馬卡龍",
+      "price": "NT$ 450",
+      "action": "加入購物車"
+    },
+    {
+      "image": "url('../img/img1.jpg')",
+      "name": "馬卡龍",
+      "price": "NT$ 450",
+      "action": "加入購物車"
+    },
+    {
+      "image": "url('../img/img1.jpg')",
+      "name": "馬卡龍",
+      "price": "NT$ 450",
+      "action": "加入購物車"
+    }
+  ]
+}

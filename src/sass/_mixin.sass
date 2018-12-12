@@ -1,0 +1,33 @@
+@mixin fullSizeImg ($imgName)
+  background: url(../img/#{$imgName})
+  width: image-width("../img/#{$imgName}")
+  height: image-height("../img/#{$imgName}")
+
+$width: 960px
+@mixin grid($cloum_number, $cloum_gutter)
+  width: ($width - $cloum_gutter*($cloum_number - 1) ) / $cloum_number
+  margin-right: $cloum_gutter
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  float: left
+  &:nth-child(#{$cloum_number}n)
+    margin-right: 0
+
+@mixin absolute-tl($top: 0, $left: 0)
+  position: absolute
+  top: $top
+  left: $left
+
+@mixin bgc($color: red)
+  background-color: $color
+
+@mixin w-h($width: 100%, $height: 100%)
+  width: $width
+  height: $height
+
+@mixin font($font-size: 16px, $color: #8DA291, $font-weight: normal, $font-family: "微軟正黑體")
+  font-size: $font-size
+  color: $color
+  font-weight: $font-weight
+  font-family: $font-family

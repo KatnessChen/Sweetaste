@@ -1,0 +1,171 @@
+.grid
+  //兩欄
+  .col-1-2
+    width: $body-width * 1/2
+  //三欄
+  .col-1-3
+    width: $body-width * 1/3
+  .col-2-3
+    width: $body-width * 2/3
+
+.grid
+  //五欄
+  .col-2-5
+    width: $footer-width * 2/5
+  .col-3-5
+    width: $footer-width * 3/5
+
+//參考 BS4 作法
+// col-xs 600px 以下
+// col-sm 600-900px
+// col-md 900px-1200px
+// col-lg 1200px-1800px
+// col-xl 1800px 以上
+// .row
+.gs
+  width: 80%
+  margin: 0 auto
+  background-color: #ccc
+  display: flex
+  flex-wrap: wrap
+  .col
+    padding: $gutter/2
+    &:first-child
+      padding-left: 0
+    &:last-child
+      padding-right: 0
+// 600px 以下
+@media (max-width: nth($breakpoint, 1))
+  .gs
+    &>.col-xs-1
+      width: 100%/12
+    &>.col-xs-2
+      width: 100%/12 * 2
+    &>.col-xs-3
+      width: 100%/12 * 3
+    &>.col-xs-4
+      width: 100%/12 * 4
+    &>.col-xs-5
+      width: 100%/12 * 5
+    &>.col-xs-6
+      width: 100%/12 * 6
+    &>.col-xs-7
+      width: 100%/12 * 7
+    &>.col-xs-8
+      width: 100%/12 * 8
+    &>.col-xs-9
+      width: 100%/12 * 9
+    &>.col-xs-10
+      width: 100%/12 * 10
+    &>.col-xs-11
+      width: 100%/12 * 11
+    &>.col-xs-12
+      width: 100%/12 * 12
+
+@media (min-width: nth($breakpoint, 1)) and (max-width: nth($breakpoint, 2))
+  .gs
+    &>.col-sm-1
+      width: 100%/12
+    &>.col-sm-2
+      width: 100%/12 * 2
+    &>.col-sm-3
+      width: 100%/12 * 3
+    &>.col-sm-4
+      width: 100%/12 * 4
+    &>.col-sm-5
+      width: 100%/12 * 5
+    &>.col-sm-6
+      width: 100%/12 * 6
+    &>.col-sm-7
+      width: 100%/12 * 7
+    &>.col-sm-8
+      width: 100%/12 * 8
+    &>.col-sm-9
+      width: 100%/12 * 9
+    &>.col-sm-10
+      width: 100%/12 * 10
+    &>.col-sm-11
+      width: 100%/12 * 11
+    &>.col-sm-12
+      width: 100%/12 * 12
+
+@media (min-width: nth($breakpoint, 2)) and (max-width: nth($breakpoint, 3))
+  .gs
+    &>.col-md-1
+      width: 100%/12
+    &>.col-md-2
+      width: 100%/12 * 2
+    &>.col-md-3
+      width: 100%/12 * 3
+    &>.col-md-4
+      width: 100%/12 * 4
+    &>.col-md-5
+      width: 100%/12 * 5
+    &>.col-md-6
+      width: 100%/12 * 6
+    &>.col-md-7
+      width: 100%/12 * 7
+    &>.col-md-8
+      width: 100%/12 * 8
+    &>.col-md-9
+      width: 100%/12 * 9
+    &>.col-md-10
+      width: 100%/12 * 10
+    &>.col-md-11
+      width: 100%/12 * 11
+    &>.col-md-12
+      width: 100%/12 * 12
+
+@media (min-width: nth($breakpoint, 3)) and (max-width: nth($breakpoint, 4))
+  .gs
+    &>.col-lg-1
+      width: 100%/12
+    &>.col-lg-2
+      width: 100%/12 * 2
+    &>.col-lg-3
+      width: 100%/12 * 3
+    &>.col-lg-4
+      width: 100%/12 * 4
+    &>.col-lg-5
+      width: 100%/12 * 5
+    &>.col-lg-6
+      width: 100%/12 * 6
+    &>.col-lg-7
+      width: 100%/12 * 7
+    &>.col-lg-8
+      width: 100%/12 * 8
+    &>.col-lg-9
+      width: 100%/12 * 9
+    &>.col-lg-10
+      width: 100%/12 * 10
+    &>.col-lg-11
+      width: 100%/12 * 11
+    &>.col-lg-12
+      width: 100%/12 * 12
+
+@media (min-width: nth($breakpoint, 4))
+  .gs
+    &>.col-xl-1
+      width: 100%/12
+    &>.col-xl-2
+      width: 100%/12 * 2
+    &>.col-xl-3
+      width: 100%/12 * 3
+    &>.col-xl-4
+      width: 100%/12 * 4
+    &>.col-xl-5
+      width: 100%/12 * 5
+    &>.col-xl-6
+      width: 100%/12 * 6
+    &>.col-xl-7
+      width: 100%/12 * 7
+    &>.col-xl-8
+      width: 100%/12 * 8
+    &>.col-xl-9
+      width: 100%/12 * 9
+    &>.col-xl-10
+      width: 100%/12 * 10
+    &>.col-xl-11
+      width: 100%/12 * 11
+    &>.col-xl-12
+      width: 100%/12 * 12
